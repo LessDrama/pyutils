@@ -1,3 +1,6 @@
+import time
+
+
 class TimeLogger:
     def __enter__(self):
         self.t = time.time()
