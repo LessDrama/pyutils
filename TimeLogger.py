@@ -1,4 +1,4 @@
-class timex:
+class TimeLogger:
     def __enter__(self):
         self.t = time.time()
         return self
